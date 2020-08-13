@@ -13,9 +13,9 @@
 - Virtualenv Wrapper
 
 ## How to install the dependencies?
-- 1º Passo > clone the repository
-- 2º Passo > install the [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) to a best package manager and create a new virtual environment: mkvirtualenv <virtualenvname> (**The format that creates a new virtualenv on the Linux and Windows operating system are different. READ THE DOCUMENTATION! -> [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)**)
-- 3º Passo > run the command in the project root: **pip install -r requirements/develop.txt**
+- 1º Passo > Clone the repository
+- 2º Passo > Install the [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) to a best package manager and create a new virtual environment: mkvirtualenv <virtualenvname> (**The format that creates a new virtualenv on the Linux and Windows operating system are different. READ THE DOCUMENTATION! -> [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)**)
+- 3º Passo > Run the command in the project root: **pip install -r requirements/develop.txt**
 - 4º Passo > After installing the requirements, open the front-end folder in the shell and run: **npm install**
   
 ## Starting the project
