@@ -1,0 +1,4 @@
+{
+  "python.linting.flake8Path": "~/.virtualenvs/site-blackshark/bin/flake8",
+  "python.pythonPath": "~/.virtualenvs/site-blackshark/bin/python"
+}

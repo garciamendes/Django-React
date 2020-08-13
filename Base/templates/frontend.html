@@ -1,0 +1,31 @@
+{% load static %}
+{% load render_bundle from webpack_loader %}
+{% load webpack_static from webpack_loader %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
+</head>
+
+<title>Base Django with React.js</title>
+<script type="text/javascript" src="{% url 'index' %}"></script>
+
+{% render_bundle 'main' 'css' %}
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script src="{% url 'js_reverse' %}" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript">
+
+  </script>
+  {% render_bundle 'main' 'js' %}
+</body>
+
+</html>
